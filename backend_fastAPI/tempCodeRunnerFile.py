@@ -1,0 +1,1 @@
+[input_prompt]+pdf_content+[job_description]

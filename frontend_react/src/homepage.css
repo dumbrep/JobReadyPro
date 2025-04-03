@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #111111;  
+}
+
+
+.heading{   
+   position: absolute;
+   top: 25vh;
+
+   padding-left: 40px;
+}
+
+h3{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    padding-left: 40px;
+}
+
+.buttons_home{
+    padding: 40px;
+    position: absolute;
+    top: 55vh;
+   display: flex;
+   float: left;
+   gap: 25px;
+}
+
