@@ -29,17 +29,19 @@ git clone https://github.com/your-username/ai-mock-interview-platform.git
 cd ai-mock-interview-platform
 
 # Frontend Setup
-cd client
+cd frontend
 npm install
 npm start
 
-# Backend Setup (FastAPI or Node.js)
-cd ../server
-# If FastAPI
+# Backend Setup (FastAPI and Node.js)
+
+# FastAPI
+cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
 
-# Or, if using Node.js
+# Node.js
+cd backend-Nodejs
 npm install
 npm run dev
 
